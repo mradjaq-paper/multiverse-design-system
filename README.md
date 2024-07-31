@@ -1,22 +1,13 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Paper Multiverse Design System
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+## Introduction
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
-
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+Repository Multiverse Design System a separated repository contains all design system needed in repo Multiverse
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+- Color
+- Button
 
 ## Getting started
 
@@ -25,12 +16,17 @@ start using the package.
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+to run this repo locally : 
+add this package to dependencies in  multiverse's pubspec.yaml
 
-```dart
-const like = 'sample';
-```
+multiverse_design_system:
+     path: ${path_to_multiverse_design_system}
+
+run with repo url
+multiverse_design_system:
+    git:
+      url: https://github.com/mradjaq-paper/multiverse-design-system.git
+      ref: ${branch_you_want_use}
 
 ## Additional information
 
