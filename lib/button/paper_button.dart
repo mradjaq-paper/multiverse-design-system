@@ -18,6 +18,7 @@ class PaperButtonNew extends StatelessWidget {
     this.buttonColor = PaperButtonColor.blue,
     this.customWidth,
     this.customFontSize,
+    required this.testVal,
     super.key,
   });
 
@@ -30,6 +31,7 @@ class PaperButtonNew extends StatelessWidget {
   final PaperButtonColor? buttonColor;
   final num? customWidth;
   final num? customFontSize;
+  final bool testVal;
 
   double generateWidth(PaperButtonWidth widthType) {
     switch (widthType) {
